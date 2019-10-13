@@ -5,7 +5,9 @@ The point of this exercise is to perform a [Substitution Cipher][1].
 An example using an alphabet that is a [Caesar Cipher][2]
 (a left rotation of three places, equivalent to a right shift of 23)
 
+~~~
 ./substitution XYZABCDEFGHIJKLMNOPQRSTUVW data/input.txt data/output.txt
+~~~
 
 The code should use the alphabet to convert the input text and
 write the result to the output file.
@@ -15,7 +17,8 @@ write the result to the output file.
 * Pass through any other number or symbol
 * Useful for testing [https://cryptii.com/pipes/caesar-cipher]
 
-Example
+### Example
+
 Alphabet
 ~~~
 XYZABCDEFGHIJKLMNOPQRSTUVW
